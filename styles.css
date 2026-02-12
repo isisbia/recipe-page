@@ -82,7 +82,7 @@ li::marker {
 }
 
 li {
-    padding-inline-start: 1rem;
+    padding-inline-start: clamp(1rem, 5vw, 2rem);
 }
 .recipe ul, 
 .recipe ol {
