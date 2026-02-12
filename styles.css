@@ -14,7 +14,7 @@ body {
     color: var(--stone-600);
     display: flex;
     justify-content: center;
-    padding-block: 3rem; 
+    padding-block: clamp(2rem, 5vw, 3rem); 
 }
 
 .recipe {
@@ -76,6 +76,7 @@ td:last-child {
     color: var(--brown-800);
     font-weight: 700;
 }
+
 li::marker {
     color: var(--brown-800);
     font-weight: 700;
