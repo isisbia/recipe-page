@@ -56,7 +56,7 @@ h1 {
 h2 {
     font-family: 'Young Serif', serif;
     color: var(--brown-800);
-    margin-block-end: 1rem;
+    margin-block-end: clamp(1rem, 5vw, 2rem);
 }
 table {
     width: 100%;
