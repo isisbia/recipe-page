@@ -38,7 +38,7 @@ body {
 .preparation {
     margin-inline-start: clamp(1rem, 5vw, 2rem);
     background-color: var(--rose-50);
-    padding: 1.5rem;
+    padding: clamp(1rem, 5vw, 2rem);
     border-radius: 1rem;
     padding-inline-start: 1.5rem;
     color: var(--rose-800);
