@@ -43,7 +43,7 @@ body {
     padding-inline-start: clamp(1rem, 5vw, 2rem);
     color: var(--rose-800);
     font-family: 'Outfit', sans-serif;
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 5vw, 1.25rem);
 }
 
 h1 {
