@@ -68,15 +68,14 @@ td {
     border-bottom: 1px solid var(--stone-150);
 }
 
-tr:last-child td {
-    border-bottom: none;
-}
-
 td:last-child {
     color: var(--brown-800);
     font-weight: 700;
 }
 
+tr:last-child td {
+    border-bottom: none;
+}
 li::marker {
     color: var(--brown-800);
     font-weight: 700;
