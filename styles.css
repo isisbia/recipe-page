@@ -89,5 +89,5 @@ li {
     display: flex;
     flex-direction: column;
     gap: 0.5rem; 
-    padding-inline-start: 1.5rem;
+    padding-inline-start: clamp(1rem, 5vw, 2rem);
 }
